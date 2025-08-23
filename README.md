@@ -13,16 +13,6 @@ The work involved both **theoretical derivations** and **practical implementatio
 
 ---
 
-## Repository Contents
-.
-├── FinalProject.pdf # full project report
-├── TaylorSwiftLyricsFeatureSet.csv# Preprocessed lyric dataset
-├── taylorSVD.ipynb # jupyter notebook applying SVD
-├── taylorNMF.ipynb # jupyter notebook applying NMF
-└── README.md
-
----
-
 ## Methods
 - **Preprocessing**  
   - Lyrics were collected and transformed into a document-term matrix.  
@@ -41,9 +31,9 @@ The work involved both **theoretical derivations** and **practical implementatio
 ## Results
 - **SVD** captured broad latent structures but produced abstract, less interpretable components.  
 - **NMF** generated more intuitive topics, grouping songs by recurring themes such as:  
-  - ❤️ Love and heartbreak  
-  - 🌆 Nostalgia and growing up  
-  - 🌟 Fame and self-reflection  
+  - Love and heartbreak  
+  - Nostalgia and growing up  
+  - Fame and self-reflection  
 
 - Cosine similarity revealed clusters of songs aligned with different **albums/eras**, reflecting lyrical shifts over time.
 
